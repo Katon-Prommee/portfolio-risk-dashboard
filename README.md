@@ -4,30 +4,30 @@ Overview
 
 This project demonstrates portfolio risk analysis using historical financial data. It calculates key risk metrics for a simple portfolio of QQQ, SPY, and GLD, including:
 
-Daily and annualized volatility
+- Daily and annualized volatility
 
-Value at Risk (VaR) at multiple confidence levels
+- Value at Risk (VaR) at multiple confidence levels
 
-Conditional Value at Risk (CVaR)
+- Conditional Value at Risk (CVaR)
 
-Skewness and kurtosis
+- Skewness and kurtosis
 
-Maximum Drawdown
+- Maximum Drawdown
 
-Stress testing for specific market events (e.g., COVID-19, 2008 Financial Crisis)
+- Stress testing for specific market events (e.g., COVID-19, 2008 Financial Crisis)
 
-Visualization of cumulative returns and drawdowns
+- Visualization of cumulative returns and drawdowns
 
 The goal is to provide a clear, reproducible workflow to assess portfolio risk using Python and open-source data.
 
-Features
+#Features
 
-Fetch historical price data from Yahoo Finance using yfinance
+- Fetch historical price data from Yahoo Finance using yfinance
 
-Calculate portfolio daily returns with custom weights
+- Calculate portfolio daily returns with custom weights
 
-Compute key risk metrics (VaR, CVaR, volatility, skewness, kurtosis, max drawdown)
+- Compute key risk metrics (VaR, CVaR, volatility, skewness, kurtosis, max drawdown)
 
-Interactive stress testing for user-defined periods and confidence levels
+- Interactive stress testing for user-defined periods and confidence levels
 
-Visualize cumulative returns and drawdowns with matplotlib
+- Visualize cumulative returns and drawdowns with matplotlib
