@@ -16,8 +16,6 @@ This project demonstrates portfolio risk analysis using historical financial dat
 
 - Stress testing for specific market events (e.g., COVID-19, 2008 Financial Crisis)
 
-- Visualization of cumulative returns and drawdowns
-
 The goal is to provide a clear, reproducible workflow to assess portfolio risk using Python and open-source data.
 
 #Features
@@ -29,5 +27,3 @@ The goal is to provide a clear, reproducible workflow to assess portfolio risk u
 - Compute key risk metrics (VaR, CVaR, volatility, skewness, kurtosis, max drawdown)
 
 - Interactive stress testing for user-defined periods and confidence levels
-
-- Visualize cumulative returns and drawdowns with matplotlib
